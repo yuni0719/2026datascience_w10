@@ -1,42 +1,33 @@
 
-# 美以伊地緣政治衝突對能源市場之影響分析
+# 📊 美以伊戰爭對全球能源市場影響分析
 
-本專題利用 Python 進行量化分析，探討戰爭風險對能源市場的結構性影響。
+> **研究洞察：** 本專題透過多維度數據視角，剖析戰爭地緣風險與能源價格之連動機制。
 
-## 專題架構
-1. **資料清理**：透過 `yfinance` 獲取數據並處理 MultiIndex。
-2. **多維度分析**：涵蓋時間趨勢、市場情緒、跨資產相關性與宏觀溢出效應。
-3. **AI 預測**：使用 Prophet 進行時間序列建模。
+---
 
-## 數據分析與可視化 (Dashboard)
+## 📈 核心數據分析儀表板
 
-### 1. 時間與波動視角
-<div style="display: flex; gap: 10px;">
-  <div style="flex: 1;"><p><b>油價走勢</b></p> ![油價](images/oil_trend.png) </div>
-  <div style="flex: 1;"><p><b>黃金走勢</b></p> ![黃金](images/gold_trend.png) </div>
-</div>
-<p><b>油價波動率</b> ![波動率](images/volatility.png) </p>
-
-### 2. 情緒與市場動能
-<div style="display: flex; gap: 10px;">
-  <div style="flex: 1;"><p><b>新聞情緒趨勢</b></p> ![情緒](images/sentiment.png) </div>
-  <div style="flex: 1;"><p><b>期貨成交量</b></p> ![成交量](images/volume.png) </div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+  <div style="flex: 1; min-width: 300px;">
+    <h3>1. 油價走勢 (項目五)</h3>
+    ![原油走勢](images/oil_price_trend.png)
+  </div>
+  <div style="flex: 1; min-width: 300px;">
+    <h3>2. 戰爭與避險資產對比 (項目七)</h3>
+    ![原油與黃金對比](images/oil_gold_comparison.png)
+  </div>
 </div>
 
-### 3. 資產連動分析
-<div style="display: flex; gap: 10px;">
-  <div style="flex: 1;"><p><b>油金回歸散點圖</b></p> ![散點圖](images/scatter.png) </div>
-  <div style="flex: 1;"><p><b>油金標準化比較</b></p> ![比較](images/compare.png) </div>
-</div>
-<p><b>股市與油價滯後相關</b> ![相關性](images/lag_corr.png) </p>
+---
 
-### 4. 模型與矩陣
-* **相關矩陣**：![矩陣](images/matrix.png)
-* **Prophet 價格預測**：![預測](images/forecast.png)
+## 🤖 AI 智能預測與情緒洞察
 
-## 結論
-戰爭引發的價格跳躍證實了傳統避險邏輯在極端地緣風險下的失效。透過本專題，我們成功驗證了情緒數據與成交量作為預測地緣風險的前瞻指標之價值。
+| 分析模組 | 功能說明 | 視覺結果 |
+| :--- | :--- | :--- |
+| **Prophet AI** | 未來 90 天趨勢預測 | ![預測圖](images/ai_prediction.png) |
+| **NLP 情緒分析** | 市場恐慌指數量化 | ![情緒圖](images/sentiment_trend.png) |
 
+---
 ---
 **Author**: 數據分析專題小組
 **Tools**: Python, Pandas, Matplotlib, Prophet, TextBlob
