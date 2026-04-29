@@ -24,13 +24,19 @@
 ---
 
 ## 三、 資料來源與視覺化展示
-*(在這裡插入你剛才生成的圖片，語法範例： `![說明](images/oil_price.png)` )*
 
-### 1. WTI 原油價格走勢
-*(插入折線圖)*
+### 1. WTI 原油價格趨勢分析
+![WTI 原油價格走勢](images/oil_price_trend.png)
 
-### 2. 相關性矩陣
-*(插入 Heatmap)*
+### 2. 多圖表比較分析
+![原油與黃金價格比較](images/oil_gold_comparison.png)
 
-### 3. AI 未來趨勢預測
-*(插入 Prophet 預測圖)*
+### 3. 資產關聯性分析
+![相關性矩陣](images/correlation_matrix.png)
+![油價與金價散點回歸圖](images/oil_gold_scatter.png)
+
+### 4. AI 預測模型
+![AI 趨勢預測](images/ai_prediction.png)
+
+### 5. 新聞情緒分析
+![新聞情緒趨勢](images/sentiment_trend.png)
