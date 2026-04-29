@@ -7,16 +7,14 @@
 
 ## 📈 核心數據分析儀表板
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <div style="flex: 1; min-width: 300px;">
-    <h3>1. 油價走勢 (項目五)</h3>
-    ![原油走勢](images/oil_price_trend.png)
-  </div>
-  <div style="flex: 1; min-width: 300px;">
-    <h3>2. 戰爭與避險資產對比 (項目七)</h3>
-    ![原油與黃金對比](images/oil_gold_comparison.png)
-  </div>
-</div>
+### 1. 時間與市場走勢
+| 原油走勢圖 | 黃金走勢圖 |
+| :--- | :--- |
+| ![原油走勢](images/oil_trend.png) | ![黃金走勢](images/gold_trend.png) |
+
+| 原油價格波動率 | 原油期貨成交量 |
+| :--- | :--- |
+| ![波動率](images/volatility.png) | ![成交量](images/volume.png) |
 
 ---
 
@@ -24,10 +22,18 @@
 
 | 分析模組 | 功能說明 | 視覺結果 |
 | :--- | :--- | :--- |
-| **Prophet AI** | 未來 90 天趨勢預測 | ![預測圖](images/ai_prediction.png) |
-| **NLP 情緒分析** | 市場恐慌指數量化 | ![情緒圖](images/sentiment_trend.png) |
+| **Prophet AI** | 未來 90 天油價走勢 | ![預測圖](images/forecast.png) |
+| **NLP 情緒分析** | 市場恐慌指數量化 | ![情緒圖](images/sentiment.png) |
 
 ---
+
+## 🔗 相關性與結構分析
+
+* **油價與金價回歸分析**：![回歸圖](images/scatter.png)
+* **油金標準化比較**：![油金比較](images/compare.png)
+* **股市與油價滯後相關**：![滯後相關](images/lag_corr.png)
+* **相關矩陣熱點圖**：![矩陣](images/matrix.png)
+
 ---
 **Author**: 數據分析專題小組
 **Tools**: Python, Pandas, Matplotlib, Prophet, TextBlob
