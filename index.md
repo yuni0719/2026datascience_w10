@@ -11,7 +11,7 @@
   3. 回歸分析 (Scatter Plot)
   4. 情緒分析 (TextBlob)
   5. 趨勢分析 (Moving Average)
-- **使用工具：** Python (Colab/Jupyter), GitHub, TextBlob, Prophet
+- **使用工具：** Python (Colab), GitHub, TextBlob, Prophet
 
 ---
 
